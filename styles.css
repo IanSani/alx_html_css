@@ -1,11 +1,13 @@
 body{
     display:flex;
     flex-direction: column;
+    background-color: aquamarine;
 }
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: aliceblue;
 }
 article{
     flex: 2;
@@ -14,4 +16,18 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+}
+header ul li{
+    list-style-type: none;
+    border-bottom: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    
+}
+.logo {
+    font-size: 2em; /* Adjust size as needed */
+    font-weight: bold;
 }
