@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+ul{
+    display: flex;
+   
+}
+body {
+    background-image: url('images/Object.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    width:1440px;
+    height:1093px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Example: Full viewport height */
+}
+.centered {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    margin-top: -100px; /* Example: Adjust spacing */
+    margin-bottom: 30px;
+}
+h1{
+    margin-top: -80px;
+    font-weight: 700;
+    color:floralwhite;
+    font-size: 120px;
+    line-height: 150.84px;
+    font-family: source sans pro;
+}
+.row{
+    color: floralwhite;
+    margin-right: 20px;
+}
+button{
+    color: floralwhite;
+    background-color:#C271FF;
+    border-radius: 50px;
+    width: 162px;
+    height: 44px;
+}
+h2{
+    text-align: center;
+    color: floralwhite;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.22px;
+    margin-top: -100px;
+}
+#learn{
+    color: #c271ff;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 1440px;
+    height: 1093px;
+    
+}
+#three{
+    border-radius: 50%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    height: 237px;
+}
+.column h3 {
+    white-space: nowrap;
+    color: floralwhite;
+    margin-bottom: 8px; /* Example: Space between heading and paragraph */
+}
+
+.column p {
+    white-space: nowrap;
+    color: floralwhite;
+    margin-bottom: 0; /* Remove margin at the bottom of paragraphs */
+}
+.column p span{
+    display: block;
+}
