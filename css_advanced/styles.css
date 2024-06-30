@@ -25,6 +25,7 @@ body {
     width:1440px;
     height:1093px;
     
+    
 }
 .container{
     display: flex;
@@ -102,4 +103,22 @@ h2{
 }
 .column p span{
     display: block;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 
+    #C271FF;
+    width:1530px;
+    height: 392px;
+    margin-top: -740px;
+    margin-left: -20px;
+    
+}
+.move{
+    margin-left: 40px;
+}
+.most{
+    margin-top: 100px;
 }
