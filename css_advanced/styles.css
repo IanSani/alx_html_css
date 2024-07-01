@@ -121,4 +121,45 @@ h2{
 }
 .most{
     margin-top: 100px;
+    color: black;
+}
+.popular{
+    color: #C271FF;
+}
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fifth{
+    display: flex;
+}
+.stars{
+    display: flex;
+}
+.stars-container .stars{
+    display: flex;
+}
+.membership{
+    color: ghostwhite;
+    background-color: #071529;
+    height:502px;
+    margin-top: 100px;
+    width: 1510px;
+    margin-left: 0;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.faq{
+    margin-top: 100px;
 }
