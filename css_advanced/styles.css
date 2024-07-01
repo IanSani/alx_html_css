@@ -163,3 +163,25 @@ h2{
 .faq{
     margin-top: 100px;
 }
+footer{
+    background-color: 
+    #071629;
+    color:white;
+    height: 249px;
+    width: 1510px;
+}
+.last{
+    display: flex;
+    align-items: center;
+
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.smile{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
