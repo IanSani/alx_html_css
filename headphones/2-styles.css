@@ -138,6 +138,56 @@ h1.four{
     background-image: url(images/background\ \(1\).png);
     height: 650px;
 }
+.results{
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.lorem{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.polygon-icons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.polygons{
+    position: relative;
+    display: inline-block;
+}
+.text-overlay{
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+.top-text{
+    top:40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bottom-text{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    left: 20%;
+    top: 70%;
+}
 @media (max-width:767px){
     .icons{
         flex-wrap: wrap;
