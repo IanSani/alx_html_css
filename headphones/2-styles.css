@@ -137,6 +137,7 @@ h1.four{
 .description{
     background-image: url(images/background\ \(1\).png);
     height: 650px;
+    overflow-y: auto;
 }
 .results{
     font-family: Source Sans Pro;
@@ -194,6 +195,9 @@ h1.four{
     }
     .description{
         margin-top: 160px;
+    }
+    .polygon-icons{
+        flex-wrap: wrap;
     }
 }
 @media (max-width:600px) {
