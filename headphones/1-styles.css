@@ -142,10 +142,9 @@ h1.four{
     .icons{
         flex-wrap: wrap;
     }
-    .description{
-        margin-top: 160px;
+    
     }
-}
+
 @media (max-width:600px) {
     header{
         flex-direction: row;
