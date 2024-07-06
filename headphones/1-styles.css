@@ -11,10 +11,18 @@
     height:800px;
     
 }
-nav {
+header{
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+.menu-icon{
+    display: none;
+}
+
+nav {
+    display: flex;
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -129,4 +137,38 @@ h1.four{
 .description{
     background-image: url(images/background\ \(1\).png);
     height: 650px;
+}
+@media (max-width:767px){
+    .icons{
+        flex-wrap: wrap;
+    }
+    .description{
+        margin-top: 160px;
+    }
+}
+@media (max-width:600px) {
+    header{
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-menu.show{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .icons{
+        flex-wrap: wrap;
+    }
 }
