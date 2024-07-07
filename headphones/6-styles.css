@@ -129,10 +129,12 @@ h1.four{
    flex-direction: column;
    align-items: center;
    text-align: center;
+   animation: bounceRight 5s linear infinite;
 }
 .row img{
     margin-bottom: 50px;
     height: 60px;
+    animation: bounce 1s infinite;
 }
 .description{
     background-image: url(images/background\ \(1\).png);
@@ -165,6 +167,7 @@ h1.four{
 .polygons{
     position: relative;
     display: inline-block;
+    animation: moveRight 10s linear infinite;
 }
 .text-overlay{
     position: absolute;
@@ -250,6 +253,32 @@ footer{
     background-color: #FF6565;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     transform: rotate(0deg);
+}
+@keyframes bounceRight{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    @keyframes bounce{
+        0%{
+            transform:translateY(0);
+        }
+        100%{
+            tranform:translateY(-20px);
+        }
+    }
+
+}
+@keyframes moveRight{
+    0% {
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+
 }
 @media (max-width:767px){
     .icons{
